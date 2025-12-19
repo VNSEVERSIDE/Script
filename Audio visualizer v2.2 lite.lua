@@ -9,7 +9,7 @@ local root = char:WaitForChild("HumanoidRootPart")
 local Sound = Instance.new("Sound")
 Sound.Parent = root
 Sound.Volume = 3
-Sound.Looped = false
+Sound.Looped = true
 Sound.RollOffMode = Enum.RollOffMode.Inverse
 Sound.PlayOnRemove = false
 
