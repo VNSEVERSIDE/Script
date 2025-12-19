@@ -256,4 +256,5 @@ player.CharacterAdded:Connect(function()
 		p:Destroy()
 	end
 end)
--- Audio visual v2.2 lite Remake by Noobd0lan
+-- Audio visual v2.3 lite Remake by Noobd0lan
+-- V2.3
