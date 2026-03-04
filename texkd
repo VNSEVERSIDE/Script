@@ -1,0 +1,388 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+local LMG2L = {};
+
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+LMG2L["Frame Soup_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["Frame Soup_2"]["BorderSizePixel"] = 0;
+LMG2L["Frame Soup_2"]["BackgroundColor3"] = Color3.fromRGB(50, 50, 50);
+LMG2L["Frame Soup_2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame Soup_2"]["Size"] = UDim2.new(0, 380, 0, 232);
+LMG2L["Frame Soup_2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+LMG2L["Frame Soup_2"]["Name"] = [[Frame Soup]];
+
+
+LMG2L["Frame4_3"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame4_3"]["BorderSizePixel"] = 0;
+LMG2L["Frame4_3"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame4_3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame4_3"]["Size"] = UDim2.new(0, 32, 0, 32);
+LMG2L["Frame4_3"]["Position"] = UDim2.new(0.5, 129, 0.5, 96);
+LMG2L["Frame4_3"]["Name"] = [[Frame4]];
+
+
+LMG2L["UICorner_4"] = Instance.new("UICorner", LMG2L["Frame4_3"]);
+LMG2L["UICorner_4"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageButton_5"] = Instance.new("ImageButton", LMG2L["Frame4_3"]);
+LMG2L["ImageButton_5"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_5"]["BackgroundTransparency"] = 10;
+-- LMG2L["ImageButton_5"]["ImageContent"] = ;
+LMG2L["ImageButton_5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_5"]["Image"] = [[rbxassetid://94504840723076]];
+LMG2L["ImageButton_5"]["Size"] = UDim2.new(0, 32, 0, 32);
+
+
+LMG2L["UIStroke_6"] = Instance.new("UIStroke", LMG2L["Frame4_3"]);
+LMG2L["UIStroke_6"]["Thickness"] = 0.4;
+LMG2L["UIStroke_6"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["LocalScript_7"] = Instance.new("LocalScript", LMG2L["Frame Soup_2"]);
+
+
+
+LMG2L["Frame4_8"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame4_8"]["BorderSizePixel"] = 0;
+LMG2L["Frame4_8"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame4_8"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame4_8"]["Size"] = UDim2.new(0, 32, 0, 32);
+LMG2L["Frame4_8"]["Position"] = UDim2.new(0.5, 169, 0.5, 96);
+LMG2L["Frame4_8"]["Name"] = [[Frame4]];
+
+
+LMG2L["UICorner_9"] = Instance.new("UICorner", LMG2L["Frame4_8"]);
+LMG2L["UICorner_9"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageButton_a"] = Instance.new("ImageButton", LMG2L["Frame4_8"]);
+LMG2L["ImageButton_a"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_a"]["BackgroundTransparency"] = 10;
+-- LMG2L["ImageButton_a"]["ImageContent"] = ;
+LMG2L["ImageButton_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_a"]["Image"] = [[rbxassetid://88184408406843]];
+LMG2L["ImageButton_a"]["Size"] = UDim2.new(0, 32, 0, 32);
+
+
+LMG2L["UIStroke_b"] = Instance.new("UIStroke", LMG2L["Frame4_8"]);
+LMG2L["UIStroke_b"]["Thickness"] = 0.4;
+LMG2L["UIStroke_b"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["UICorner_c"] = Instance.new("UICorner", LMG2L["Frame Soup_2"]);
+LMG2L["UICorner_c"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageButton_d"] = Instance.new("ImageButton", LMG2L["Frame Soup_2"]);
+LMG2L["ImageButton_d"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_d"]["BackgroundTransparency"] = 10;
+-- LMG2L["ImageButton_d"]["ImageContent"] = ;
+LMG2L["ImageButton_d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_d"]["Image"] = [[rbxassetid://112597171422715]];
+LMG2L["ImageButton_d"]["Size"] = UDim2.new(0, 30, 0, 30);
+LMG2L["ImageButton_d"]["Position"] = UDim2.new(0, 345, 0, 0);
+
+
+LMG2L["LocalScript_e"] = Instance.new("LocalScript", LMG2L["ImageButton_d"]);
+
+
+
+LMG2L["Frame4_f"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame4_f"]["BorderSizePixel"] = 0;
+LMG2L["Frame4_f"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame4_f"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame4_f"]["Size"] = UDim2.new(0, 32, 0, 32);
+LMG2L["Frame4_f"]["Position"] = UDim2.new(0.5, 49, 0.5, 96);
+LMG2L["Frame4_f"]["Name"] = [[Frame4]];
+
+
+LMG2L["UICorner_10"] = Instance.new("UICorner", LMG2L["Frame4_f"]);
+LMG2L["UICorner_10"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageButton_11"] = Instance.new("ImageButton", LMG2L["Frame4_f"]);
+LMG2L["ImageButton_11"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_11"]["BackgroundTransparency"] = 10;
+-- LMG2L["ImageButton_11"]["ImageContent"] = ;
+LMG2L["ImageButton_11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_11"]["Image"] = [[rbxassetid://117039465067986]];
+LMG2L["ImageButton_11"]["Size"] = UDim2.new(0, 32, 0, 32);
+
+
+LMG2L["UIStroke_12"] = Instance.new("UIStroke", LMG2L["Frame4_f"]);
+LMG2L["UIStroke_12"]["Thickness"] = 0.4;
+LMG2L["UIStroke_12"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["Frame4_13"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame4_13"]["BorderSizePixel"] = 0;
+LMG2L["Frame4_13"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame4_13"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame4_13"]["Size"] = UDim2.new(0, 32, 0, 32);
+LMG2L["Frame4_13"]["Position"] = UDim2.new(0.5, 89, 0.5, 96);
+LMG2L["Frame4_13"]["Name"] = [[Frame4]];
+
+
+LMG2L["UICorner_14"] = Instance.new("UICorner", LMG2L["Frame4_13"]);
+LMG2L["UICorner_14"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageButton_15"] = Instance.new("ImageButton", LMG2L["Frame4_13"]);
+LMG2L["ImageButton_15"]["BorderSizePixel"] = 0;
+LMG2L["ImageButton_15"]["BackgroundTransparency"] = 10;
+-- LMG2L["ImageButton_15"]["ImageContent"] = ;
+LMG2L["ImageButton_15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageButton_15"]["Image"] = [[rbxassetid://120658797457521]];
+LMG2L["ImageButton_15"]["Size"] = UDim2.new(0, 32, 0, 32);
+
+
+LMG2L["UIStroke_16"] = Instance.new("UIStroke", LMG2L["Frame4_13"]);
+LMG2L["UIStroke_16"]["Thickness"] = 0.4;
+LMG2L["UIStroke_16"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["Frame_17"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame_17"]["BorderSizePixel"] = 0;
+LMG2L["Frame_17"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame_17"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame_17"]["Size"] = UDim2.new(0, 368, 0, 22);
+LMG2L["Frame_17"]["Position"] = UDim2.new(0.5, 0, 0.5, -100);
+
+
+LMG2L["UICorner_18"] = Instance.new("UICorner", LMG2L["Frame_17"]);
+LMG2L["UICorner_18"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["TextLabel2_19"] = Instance.new("TextLabel", LMG2L["Frame_17"]);
+LMG2L["TextLabel2_19"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel2_19"]["TextSize"] = 24;
+LMG2L["TextLabel2_19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel2_19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic);
+LMG2L["TextLabel2_19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel2_19"]["BackgroundTransparency"] = 10;
+LMG2L["TextLabel2_19"]["Size"] = UDim2.new(0, 136, 0, 70);
+LMG2L["TextLabel2_19"]["Text"] = [[- Private Backdoor]];
+LMG2L["TextLabel2_19"]["Name"] = [[TextLabel2]];
+LMG2L["TextLabel2_19"]["Position"] = UDim2.new(0, 110, 0, -26);
+
+
+LMG2L["UIStroke_1a"] = Instance.new("UIStroke", LMG2L["TextLabel2_19"]);
+LMG2L["UIStroke_1a"]["Thickness"] = 0.15;
+LMG2L["UIStroke_1a"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["TextLabel_1b"] = Instance.new("TextLabel", LMG2L["Frame_17"]);
+LMG2L["TextLabel_1b"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_1b"]["TextSize"] = 24;
+LMG2L["TextLabel_1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Italic);
+LMG2L["TextLabel_1b"]["TextColor3"] = Color3.fromRGB(255, 251, 114);
+LMG2L["TextLabel_1b"]["BackgroundTransparency"] = 10;
+LMG2L["TextLabel_1b"]["Size"] = UDim2.new(0, 136, 0, 70);
+LMG2L["TextLabel_1b"]["Text"] = [[Spunchbub]];
+LMG2L["TextLabel_1b"]["Position"] = UDim2.new(0, -14, 0, -26);
+
+
+LMG2L["UIStroke_1c"] = Instance.new("UIStroke", LMG2L["TextLabel_1b"]);
+LMG2L["UIStroke_1c"]["Thickness"] = 0.15;
+LMG2L["UIStroke_1c"]["Color"] = Color3.fromRGB(255, 251, 114);
+
+
+LMG2L["UIStroke_1d"] = Instance.new("UIStroke", LMG2L["Frame_17"]);
+LMG2L["UIStroke_1d"]["Thickness"] = 0.4;
+LMG2L["UIStroke_1d"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["Frame2_1e"] = Instance.new("Frame", LMG2L["Frame Soup_2"]);
+LMG2L["Frame2_1e"]["BorderSizePixel"] = 0;
+LMG2L["Frame2_1e"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame2_1e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame2_1e"]["Size"] = UDim2.new(0, 368, 0, 156);
+LMG2L["Frame2_1e"]["Position"] = UDim2.new(0.5, 0, 0.5, -4);
+LMG2L["Frame2_1e"]["Name"] = [[Frame2]];
+
+
+LMG2L["UICorner_1f"] = Instance.new("UICorner", LMG2L["Frame2_1e"]);
+LMG2L["UICorner_1f"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["ImageLabel_20"] = Instance.new("ImageLabel", LMG2L["Frame2_1e"]);
+LMG2L["ImageLabel_20"]["BorderSizePixel"] = 0;
+LMG2L["ImageLabel_20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["ImageLabel_20"]["ImageTransparency"] = 0.7;
+-- LMG2L["ImageLabel_20"]["ImageContent"] = ;
+LMG2L["ImageLabel_20"]["Image"] = [[rbxassetid://89640858025803]];
+LMG2L["ImageLabel_20"]["Size"] = UDim2.new(0, 196, 0, 194);
+LMG2L["ImageLabel_20"]["BackgroundTransparency"] = 10;
+LMG2L["ImageLabel_20"]["Position"] = UDim2.new(0, 82, 0, -22);
+
+
+LMG2L["TextBox_21"] = Instance.new("TextBox", LMG2L["Frame2_1e"]);
+LMG2L["TextBox_21"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["TextBox_21"]["BorderSizePixel"] = 0;
+LMG2L["TextBox_21"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+LMG2L["TextBox_21"]["TextSize"] = 18;
+LMG2L["TextBox_21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_21"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["TextBox_21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextBox_21"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextBox_21"]["Size"] = UDim2.new(0, 356, 0, 144);
+LMG2L["TextBox_21"]["Position"] = UDim2.new(0, 6, 0, 6);
+LMG2L["TextBox_21"]["Text"] = [[-- Script by Sigma Mango]];
+LMG2L["TextBox_21"]["BackgroundTransparency"] = 10;
+
+
+LMG2L["UIStroke_22"] = Instance.new("UIStroke", LMG2L["Frame2_1e"]);
+LMG2L["UIStroke_22"]["Thickness"] = 0.4;
+LMG2L["UIStroke_22"]["Color"] = Color3.fromRGB(106, 106, 106);
+
+
+LMG2L["Frame3_23"] = Instance.new("Frame", LMG2L["Frame2_1e"]);
+LMG2L["Frame3_23"]["BorderSizePixel"] = 0;
+LMG2L["Frame3_23"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame3_23"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame3_23"]["Size"] = UDim2.new(0, 104, 0, 32);
+LMG2L["Frame3_23"]["Position"] = UDim2.new(0.5, -130, 0.5, 100);
+LMG2L["Frame3_23"]["Name"] = [[Frame3]];
+
+
+LMG2L["UICorner_24"] = Instance.new("UICorner", LMG2L["Frame3_23"]);
+LMG2L["UICorner_24"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["UIStroke_25"] = Instance.new("UIStroke", LMG2L["Frame3_23"]);
+LMG2L["UIStroke_25"]["Thickness"] = 0.4;
+LMG2L["UIStroke_25"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["Frame4_26"] = Instance.new("Frame", LMG2L["Frame2_1e"]);
+LMG2L["Frame4_26"]["BorderSizePixel"] = 0;
+LMG2L["Frame4_26"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 42);
+LMG2L["Frame4_26"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+LMG2L["Frame4_26"]["Size"] = UDim2.new(0, 78, 0, 32);
+LMG2L["Frame4_26"]["Position"] = UDim2.new(0.5, -32, 0.5, 100);
+LMG2L["Frame4_26"]["Name"] = [[Frame4]];
+
+
+LMG2L["UICorner_27"] = Instance.new("UICorner", LMG2L["Frame4_26"]);
+LMG2L["UICorner_27"]["CornerRadius"] = UDim.new(0, 5);
+
+
+LMG2L["UIStroke_28"] = Instance.new("UIStroke", LMG2L["Frame4_26"]);
+LMG2L["UIStroke_28"]["Thickness"] = 0.4;
+LMG2L["UIStroke_28"]["Color"] = Color3.fromRGB(116, 116, 116);
+
+
+LMG2L["TextButton_29"] = Instance.new("TextButton", LMG2L["Frame2_1e"]);
+LMG2L["TextButton_29"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_29"]["BackgroundTransparency"] = 10;
+LMG2L["TextButton_29"]["Size"] = UDim2.new(0, 80, 0, 32);
+LMG2L["TextButton_29"]["Text"] = [[]];
+LMG2L["TextButton_29"]["Position"] = UDim2.new(0, 112, 0, 162);
+
+
+LMG2L["TextLabel_2a"] = Instance.new("TextLabel", LMG2L["TextButton_29"]);
+LMG2L["TextLabel_2a"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_2a"]["TextSize"] = 24;
+LMG2L["TextLabel_2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_2a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_2a"]["BackgroundTransparency"] = 10;
+LMG2L["TextLabel_2a"]["Size"] = UDim2.new(0, 252, 0, 118);
+LMG2L["TextLabel_2a"]["Text"] = [[Clear]];
+LMG2L["TextLabel_2a"]["Position"] = UDim2.new(0, -86, 0, -44);
+
+
+LMG2L["UIStroke_2b"] = Instance.new("UIStroke", LMG2L["TextLabel_2a"]);
+LMG2L["UIStroke_2b"]["Thickness"] = 0.15;
+LMG2L["UIStroke_2b"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["LocalScript_2c"] = Instance.new("LocalScript", LMG2L["TextButton_29"]);
+
+
+
+LMG2L["TextButton_2d"] = Instance.new("TextButton", LMG2L["Frame2_1e"]);
+LMG2L["TextButton_2d"]["BorderSizePixel"] = 0;
+LMG2L["TextButton_2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextButton_2d"]["BackgroundTransparency"] = 10;
+LMG2L["TextButton_2d"]["Size"] = UDim2.new(0, 102, 0, 36);
+LMG2L["TextButton_2d"]["Text"] = [[]];
+LMG2L["TextButton_2d"]["Position"] = UDim2.new(0, 0, 0, 162);
+
+
+LMG2L["TextLabel_2e"] = Instance.new("TextLabel", LMG2L["TextButton_2d"]);
+LMG2L["TextLabel_2e"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_2e"]["TextSize"] = 24;
+LMG2L["TextLabel_2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_2e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_2e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_2e"]["BackgroundTransparency"] = 10;
+LMG2L["TextLabel_2e"]["Size"] = UDim2.new(0, 252, 0, 118);
+LMG2L["TextLabel_2e"]["Text"] = [[Execute]];
+LMG2L["TextLabel_2e"]["Position"] = UDim2.new(0, -72, 0, -44);
+
+
+LMG2L["UIStroke_2f"] = Instance.new("UIStroke", LMG2L["TextLabel_2e"]);
+LMG2L["UIStroke_2f"]["Thickness"] = 0.15;
+LMG2L["UIStroke_2f"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+LMG2L["LocalScript_30"] = Instance.new("LocalScript", LMG2L["TextButton_2d"]);
+
+
+
+local function C_7()
+	local script = LMG2L["LocalScript_7"];
+	script.Parent.Active = true	
+	script.Parent.Draggable = true	
+end;
+task.spawn(C_7);
+local function C_e()
+	local script = LMG2L["LocalScript_e"];
+	local Frame = script.Parent.Parent	
+	
+	script.Parent.MouseButton1Click:Connect(function()	
+	Frame.Visible = false	
+	end)	
+end;
+task.spawn(C_e);
+local function C_2c()
+	local script = LMG2L["LocalScript_2c"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	textBox.Text = ""	
+	end)	
+end;
+task.spawn(C_2c);
+local function C_30()
+	local script = LMG2L["LocalScript_30"];
+	local button = script.Parent	
+	local textBox = button.Parent:WaitForChild("TextBox")	
+	button.MouseButton1Click:Connect(function()	
+	local code = textBox.Text	
+	if code ~= "" then	
+	pcall(function()	
+	loadstring(code)()	
+	end)	
+	end	
+	end)	
+end;
+task.spawn(C_30);
+
+return LMG2L["ScreenGui_1"], require;
